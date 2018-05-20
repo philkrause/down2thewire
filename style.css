@@ -1,0 +1,106 @@
+
+html {
+    font-size: 10px;
+    background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center ;
+    background-size: cover;
+  }
+
+header{
+background:orange;
+
+}
+
+header::after{
+  content:'';
+  display:table;
+  clear:both;
+}
+
+.container {
+  width: 80%;
+  margin: 0px auto;
+ 
+  }
+
+  nav{
+    text-align:center;
+ 
+}
+
+nav ul{
+  margin:0;
+  padding:0;
+  list-style:none;
+  
+}
+
+nav li{
+  display: inline-block;
+  margin-left: 200px;
+  padding-top:25px;
+  font-size:28px;
+ 
+}
+
+nav ul > li > a {
+  text-decoration:none;
+  text-transform: uppercase;
+  font-family:sans-serif;
+  text-shadow: 0 0 .05rem black;
+ 
+  
+}
+
+
+
+
+
+
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+  }
+
+
+.keys {
+  display: flex;
+  flex: 1;
+  
+  justify-content: center;
+}
+
+.key {
+  border: .4rem solid black;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 10rem;
+  
+  color:orange;
+  background: rgba(0,0,0,0.4);
+  text-shadow: 0 0 .5rem black;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+  }
+  
+  kbd {
+    
+    font-size: 15rem;
+
+  }
+  
+  .sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #ffc600;
+  }
